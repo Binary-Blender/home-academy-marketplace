@@ -1,0 +1,8 @@
+# Static discovery site for the marketplace — a pure Workers-with-assets deploy
+# (no server code, no cron). Run `node build.mjs` first to produce ./dist, then
+# `wrangler deploy`. The GitHub Action does both on every push to lessons/.
+name = "home-academy-marketplace-site"
+compatibility_date = "2026-01-15"
+
+[assets]
+directory = "./dist"

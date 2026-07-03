@@ -47,6 +47,28 @@ genericizes it (strips the child's name/personal details) and commits it to
 
 You can also open a pull request adding a `.agi` file directly.
 
+## Discovery site
+
+The lessons are also published as a **static, SEO-friendly website** — browsable
+on the open web, no app required:
+
+**→ https://home-academy-marketplace-site.chrisbender999.workers.dev**
+
+`build.mjs` (zero dependencies) walks `lessons/`, parses each `.agi`, renders the
+Markdown, and emits `./dist` (a catalog index with live filters + one page per
+lesson). It deploys as a Cloudflare Workers-with-assets site.
+
+```bash
+node build.mjs      # → ./dist
+./publish.sh        # build + wrangler deploy   (needs CLOUDFLARE_API_TOKEN + _ACCOUNT_ID)
+```
+
+**Auto-publish:** `.github/workflows/deploy.yml` rebuilds and deploys on every
+push to `lessons/**` or `manifest.json` — so approving a lesson (which commits
+to `lessons/`) republishes the site automatically. It needs two repo secrets:
+`CLOUDFLARE_API_TOKEN` (ideally scoped to *Workers Scripts: Edit* only) and
+`CLOUDFLARE_ACCOUNT_ID`.
+
 ## License
 
 Lessons default to **CC-BY-4.0** (attribution) unless the file says otherwise.
