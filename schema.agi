@@ -1,0 +1,23 @@
+# NovaSyn Home Academy — Marketplace lesson schema
+#
+# Every file under lessons/ and pending/ is a RECORD Lesson conforming to this
+# ENTITY. It's the same .agi record shape Home Academy stores internally, so a
+# shared lesson round-trips straight into a family's private tree on import.
+#
+# The Agicore DSL (see 4G TAO Dev Stack/agicore/docs/dsl-reference.md) — this
+# file is both documentation and a validatable contract.
+
+ENTITY Lesson {
+  title:            string REQUIRED   # "Introduction to Fractions"
+  subject:          string REQUIRED   # "Math"
+  grade_level:      string            # "3rd"
+  standards:        string            # comma-separated, e.g. "3.NF.A.1, 3.NF.A.2"
+  duration_minutes: number            # 45
+  tags:             string            # "hands-on, visual, fractions"
+  license:          string = "CC-BY-4.0"
+  author:           string            # display name or github handle
+  content:          string REQUIRED   # the lesson body, Markdown (JSON-escaped on one line)
+  source:           string            # the app that produced it, e.g. "novasyn-home-academy"
+  created_at:       datetime
+  TIMESTAMPS
+}
