@@ -9,15 +9,6 @@
     "duration_minutes": 45
   },
   {
-    "path": "lessons/math/5th/test-pending-lesson.agi",
-    "title": "TEST Pending Lesson",
-    "subject": "Math",
-    "grade_level": "5th",
-    "tags": "",
-    "author": "tester",
-    "duration_minutes": 30
-  },
-  {
     "path": "lessons/reading/2nd/finding-the-main-idea.agi",
     "title": "Finding the Main Idea",
     "subject": "Reading",
