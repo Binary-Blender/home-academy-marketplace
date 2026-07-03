@@ -1,0 +1,29 @@
+[
+  {
+    "path": "lessons/math/3rd/adding-fractions.agi",
+    "title": "Adding Fractions with Like Denominators",
+    "subject": "Math",
+    "grade_level": "3rd",
+    "tags": "fractions, hands-on, visual",
+    "author": "Home Academy",
+    "duration_minutes": 45
+  },
+  {
+    "path": "lessons/reading/2nd/finding-the-main-idea.agi",
+    "title": "Finding the Main Idea",
+    "subject": "Reading",
+    "grade_level": "2nd",
+    "tags": "comprehension, nonfiction, close reading",
+    "author": "Home Academy",
+    "duration_minutes": 30
+  },
+  {
+    "path": "lessons/science/4th/water-cycle.agi",
+    "title": "The Water Cycle",
+    "subject": "Science",
+    "grade_level": "4th",
+    "tags": "earth science, hands-on, observation",
+    "author": "Home Academy",
+    "duration_minutes": 50
+  }
+]
