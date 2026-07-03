@@ -19,5 +19,4 @@ ENTITY Lesson {
   content:          string REQUIRED   # the lesson body, Markdown (JSON-escaped on one line)
   source:           string            # the app that produced it, e.g. "novasyn-home-academy"
   created_at:       datetime
-  TIMESTAMPS
 }
