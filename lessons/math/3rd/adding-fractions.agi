@@ -1,0 +1,13 @@
+RECORD Lesson math-3rd-adding-fractions {
+  title            : "Adding Fractions with Like Denominators"
+  subject          : "Math"
+  grade_level      : "3rd"
+  standards        : "3.NF.A.1"
+  duration_minutes : 45
+  tags             : "fractions, hands-on, visual"
+  license          : "CC-BY-4.0"
+  author           : "Home Academy"
+  content          : "## Adding Fractions with Like Denominators\n\n**Grade:** 3rd  ·  **Time:** ~45 min\n\n### Warm-up (5 min)\nDraw a pizza cut into 4 equal slices. Color 1 slice. Ask: \"What fraction did we color?\" (1/4)\n\n### Teach (15 min)\nWhen two fractions have the **same bottom number** (denominator), we add the **top numbers** (numerators) and keep the bottom the same:\n\n> 1/4 + 2/4 = 3/4\n\nThe bottom stays 4 because the slices are still fourths.\n\n### Guided practice (10 min)\n- 1/5 + 2/5 = ?\n- 3/8 + 4/8 = ?\n- 2/6 + 2/6 = ?\n\n### Independent practice (10 min)\nHave your student invent three of their own like-denominator problems and solve them.\n\n### Check for understanding (5 min)\nAsk: \"Why does the bottom number stay the same when we add?\"\n\n### Standards\n3.NF.A.1 — Understand a fraction as a number on the number line."
+  source           : "novasyn-home-academy"
+  created_at       : "2026-07-03"
+}

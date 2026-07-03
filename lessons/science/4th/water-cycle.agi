@@ -1,0 +1,13 @@
+RECORD Lesson science-4th-water-cycle {
+  title            : "The Water Cycle"
+  subject          : "Science"
+  grade_level      : "4th"
+  standards        : "4-ESS2-1"
+  duration_minutes : 50
+  tags             : "earth science, hands-on, observation"
+  license          : "CC-BY-4.0"
+  author           : "Home Academy"
+  content          : "## The Water Cycle\n\n**Grade:** 4th  ·  **Time:** ~50 min\n\n### Big idea\nWater moves in a never-ending loop: it **evaporates**, **condenses**, and **precipitates** — over and over.\n\n### Vocabulary\n- **Evaporation** — the sun heats water and it becomes an invisible gas (water vapor).\n- **Condensation** — vapor cools and turns back into tiny droplets (clouds).\n- **Precipitation** — droplets join, get heavy, and fall as rain or snow.\n- **Collection** — water gathers in oceans, lakes, and rivers.\n\n### Hands-on (20 min)\nPut a little warm water in a clear jar. Seal it and set it in the sun. In an hour, watch droplets form on the lid — that's condensation! When they get heavy, they \"rain\" back down.\n\n### Draw it (15 min)\nHave your student draw the cycle with arrows and label all four stages.\n\n### Discuss (5 min)\nAsk: \"Where does the water go after it rains? Does the Earth ever run out of water?\"\n\n### Standards\n4-ESS2-1 — Make observations to provide evidence of Earth's systems interacting."
+  source           : "novasyn-home-academy"
+  created_at       : "2026-07-03"
+}

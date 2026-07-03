@@ -1,0 +1,13 @@
+RECORD Lesson reading-2nd-main-idea {
+  title            : "Finding the Main Idea"
+  subject          : "Reading"
+  grade_level      : "2nd"
+  standards        : "RI.2.2"
+  duration_minutes : 30
+  tags             : "comprehension, nonfiction, close reading"
+  license          : "CC-BY-4.0"
+  author           : "Home Academy"
+  content          : "## Finding the Main Idea\n\n**Grade:** 2nd  ·  **Time:** ~30 min\n\n### What is a main idea?\nThe **main idea** is what a paragraph is mostly about. The **details** are the little facts that tell us more.\n\n### Model it (10 min)\nRead a short paragraph aloud (a few sentences about, say, honeybees). Then say: \"This paragraph is mostly about **how bees make honey**. That's the main idea.\" Point to two details that support it.\n\n### Try together (10 min)\nRead a second short paragraph. Ask:\n- \"What is this mostly about?\" (main idea)\n- \"What are two details that tell us more?\"\n\nDraw a table: a sun in the middle (main idea) with rays going out (details).\n\n### On their own (10 min)\nGive your student a third paragraph. Have them write one sentence for the main idea and list two details.\n\n### Standards\nRI.2.2 — Identify the main topic of a multi-paragraph text as well as the focus of specific paragraphs."
+  source           : "novasyn-home-academy"
+  created_at       : "2026-07-03"
+}
